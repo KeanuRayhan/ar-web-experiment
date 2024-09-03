@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const gltfModel = document.getElementById('gltf-model');
 
     // Load the GLTF Model
-    gltfModel.setAttribute('gltf-model', 'url(/models/scene.gltf)');
+    gltfModel.setAttribute('gltf-model', 'url(../models/scene.gltf)');
 
     arButton.addEventListener('click', () => {
         scene.style.display = 'block';
