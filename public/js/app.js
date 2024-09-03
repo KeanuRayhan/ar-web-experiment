@@ -8,5 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     arButton.addEventListener('click', () => {
         scene.style.display = 'block';
+        arButton.style.display = 'none';
     });
 });
